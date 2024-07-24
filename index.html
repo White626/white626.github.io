@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>每日菜单生成器</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>每日菜单生成器</h1>
+        <button id="generateButton">生成菜单</button>
+        <table>
+            <thead>
+                <tr>
+                    <th class="center">餐别</th>
+                    <th class="center">菜单</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="center">早餐</td>
+                    <td id="breakfast"></td>
+                </tr>
+                <tr>
+                    <td class="center">午餐</td>
+                    <td id="lunch"></td>
+                </tr>
+                <tr>
+                    <td class="center">晚餐</td>
+                    <td id="dinner"></td>
+                </tr>
+                <tr>
+                    <td class="center">水果</td>
+                    <td id="fruit"></td>
+                </tr>
+                <tr>
+                    <td class="center">汤药</td>
+                    <td id="medicine"></td>
+                </tr>
+            </tbody>
+        </table>
+        <p style="color: red;">
+            禁用的药:
+            巴豆，牵牛、大载、斑蝥，商陆、麝香，三棱、莪术、水蛭、虻虫等。
+        </p>
+        <p style="color: red;">
+            慎用的药:
+            干姜、积实、红花、厚朴、牛膝、吴茱萸，五味子，酸枣仁，辛夷、大黄、桃仁,薄摘、半夏、附子、芒硝，牡丹皮、麻仁、薏苡仁等。
+        </p>
+        <p style="color: red;">
+            回奶食物:
+            香椿、巧克力、鸡肝、豆角、乳鸽、母鸡、生山楂、柚子、韭菜、水梨、芦笋、牛蒡、红参、炒麦芽、青草茶、薄荷、空心菜、大白菜、酒精等(寒性海鲜·瓜类食物·寒性蔬菜·冷性水果)。
+        </p>
+        <p style="color: red;">
+            堵奶食物:
+            炸物·洋芋片·麻辣锅·凤梨酥。
+        </p>
+        <p style="color: blue;">
+            通乳丹:
+            通乳丹具有极为显着的通乳下奶作用，其主要药物组成为党参20克、北黄芪30克、当归15克、麦冬15克、通草6克、桔梗10克、黄精20克、王不留行12克、何首乌20克以及天花粉20克等。产妇可以用水煎服后服用，如果同时存在有肾气不足的症状，就可以加入合适剂量的巴戟天和熟地黄。
+        </p>
+        <p style="color: blue;">
+            下乳涌泉汤:
+            下乳涌泉汤是产妇通乳常用的中药方。其具体药物成分为：当归15克、川芎9克、生地黄15克、白芍15克、柴胡10克、青皮10克、天花粉30克、漏芦15克、通草6克、桔梗10克、白芷9克、炮山甲12克和王不留行15克。一般用水煎服即可收到显着的通乳催奶疗效。
+        </p>
+        <p style="color: blue;">
+            当归通乳汤:
+            有通乳下奶需求的产妇也可以在医生指导下用水煎服当归通乳汤，主要可使用当归30克、黄芪30克、党参30克、瓜蒌12克、通草3克、桔梗6克、麦冬10克、路路通5克、花粉6克、王不留行12克、黑芝麻12克、元参12克以及甘草5克等中药材。如果存在有乳房胀硬的症状，且乳头局部微红，就可以在方剂当中适当加入蒲公英、连翘或者夏枯草一类中草药。
+        </p>
+        <p style="color: blue;">
+            丝瓜衣通乳汤:
+            丝瓜衣也可以用来制作通乳汤，且疗效非常明显。产妇可以使用丝瓜衣、通草各3克煎水喝，若效果不大，可用再搭配北芪6克、当归9克、白芷3克、穿山甲6克等中药材，并可加入猪蹄，饮汤吃肉后效果极明显。如产妇同时有恶露未净的症状，可加益母草、七叶一枝花。
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
